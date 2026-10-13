@@ -17,7 +17,12 @@ public sealed class AppConfig
                 var info = (System.Reflection.AssemblyInformationalVersionAttribute?)Attribute.GetCustomAttribute(
                     asm, typeof(System.Reflection.AssemblyInformationalVersionAttribute));
                 if (!string.IsNullOrWhiteSpace(info?.InformationalVersion))
-                    return info!.InformationalVersion.Split(' ')[0];
+                {
+                    // 形如 "1.0.0" / "1.0.0 WPF" / "0.9.0+721116b..."：只取版本号本身
+                    var raw = info!.InformationalVersion.Split(' ')[0];
+                    var plus = raw.IndexOf('+');
+                    return plus > 0 ? raw[..plus] : raw;
+                }
                 var v = asm.GetName().Version;
                 if (v != null) return $"{v.Major}.{v.Minor}.{v.Build}";
             }

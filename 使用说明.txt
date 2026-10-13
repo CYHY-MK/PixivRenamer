@@ -1,4 +1,4 @@
-PixivRenamer 1.0.0 使用说明
+﻿PixivRenamer 1.0.0 使用说明
 ================================
 项目主页：https://github.com/CYHY-MK/PixivRenamer
 作者：CYHY-MK        许可：MIT
@@ -8,7 +8,7 @@ SauceNAO、ascii2d 等网站的服务条款，控制请求频率，不要用于�
 商业用途或任何侵犯版权的行为。使用产生的一切后果由使用者自行承担。
 
 一、运行
-1. 便携版：到项目主页 Releases 下载最新 PixivRenamer_v1.0.0_便携版.zip，
+1. 便携版：到项目主页 Releases 下载最新 PixivRenamer_v1.0.0_portable.zip，
    解压后双击 PixivRenamer\PixivRenamer.exe。
 2. 免安装部署：双击安装到本用户.bat，会把程序复制到
    %LOCALAPPDATA%\Programs\PixivRenamer 并创建开始菜单快捷方式；

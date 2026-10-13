@@ -1,4 +1,4 @@
-# PixivRenamer 1.0.0
+﻿# PixivRenamer 1.0.0
 
 一个 Windows 桌面工具：把大量下载的 pixiv 插画按 **作品 PID → 作者 / 标题** 重命名并分类整理。
 文件名没有 PID、或缺少作者 / 标题时，会用 SauceNAO / ascii2d **识图**辅助查询来源。
@@ -31,7 +31,7 @@
 ## 运行方式
 
 ### 便携版（推荐）
-1. 到 [Releases](https://github.com/CYHY-MK/PixivRenamer/releases) 下载最新 `PixivRenamer_v1.0.0_便携版.zip`；
+1. 到 [Releases](https://github.com/CYHY-MK/PixivRenamer/releases) 下载最新 `PixivRenamer_v1.0.0_portable.zip`；
 2. 解压后双击 `PixivRenamer\PixivRenamer.exe`（自包含单文件，**不需要**安装 .NET / Python / VC++ 运行库）；
 3. 如果 Windows SmartScreen 提示，右键 exe → 属性 → 解除锁定，或选择"仍要运行"。
 
