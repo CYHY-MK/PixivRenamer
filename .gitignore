@@ -1,0 +1,32 @@
+# 构建产物
+bin/
+obj/
+publish/
+dist/
+*.user
+*.suo
+.vs/
+
+# 运行时生成（每台机器不同，不该提交）
+selftest.log
+error-reports/
+Logs/
+cache/
+**/_pixiv_rename_report.csv
+**/_unresolved.txt
+
+# 本地测试用配置（含代理 / API Key / Cookie，务必不要提交）
+test-config.json
+**/cfg-*.json
+test-lab/
+proxy-test/
+diag-test/
+shot-tmp/
+
+# 会话归档的原始转录体积较大，只保留纪要（README / PROJECT-NOTES / 各会话纪要）
+docs/会话归档/_transcripts/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
